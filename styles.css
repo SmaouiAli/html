@@ -1,0 +1,66 @@
+h1 {
+    font-size: 60px;
+    color: rgb(0 0 0);
+    text-align: center;
+    margin-bottom: 80px;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+p {
+    border: solid 1px black;
+    padding: 87px;
+    border-radius: 15px;
+    font-size: 22px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 30px;
+    background-color: #5c60a845;
+    /* background-image: url("./farzad-p-xSl33Wxyc-unsplash.jpg"); */
+}
+
+p:hover{
+    font-size: 25px;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+
+}
+img{
+    width: 150px;
+    height:180px;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+.image-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+iframe {
+    width: 1000px;
+    height: 500px;
+  margin-left: 25%;
+  border-radius: 15px;
+}
+
+#btn {
+    height: 50px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 17px;
+    margin-block: auto;
+    cursor: pointer;
+}
+#btn:hover{
+    height: 55px;
+    width: 115px; 
+}

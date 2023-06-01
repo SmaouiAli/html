@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- <meta charset="UTF-8">: This tag specifies the character encoding for the webpage. In this case, it is set to
+    "UTF-8," which is a widely used character encoding that supports a wide range of characters from different
+    languages.
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">: This tag is used to set the compatibility mode for Internet
+    Explorer (IE) browsers. The value "IE=edge" instructs IE to use the latest version available and not to use any
+    compatibility modes.
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">: This tag is used for responsive web design
+    and defines the viewport settings for the webpage. It specifies that the width should adjust to the device's screen
+    width, and the initial zoom level should be set to 1.0 (no zooming). -->
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First introduction to HTML</title>
+   <link rel="stylesheet" href="styles.css"  >
+</head>
+
+<body>
+   
+<h1>Welcome to my first html</h1>
+
+<div class="image-container">
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+<img  onclick="toggleVisibility('html')"   class="logo" id="htmlLogo" src="data:image/png;base64,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" alt="html logo">
+    </a>
+
+<button id="btn" onclick="toggleVisibility('x')">Show Both</button>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+<img  onclick="toggleVisibility('css')" id="csslogo" src="data:image/png;base64,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">
+</a>
+
+
+</div>
+
+<p id="html">What Is HTML? Hypertext Markup Language Basics Explained:
+
+    HTML stands for HyperText Markup Language. It is a standard markup language for web page creation. It allows the creation and structure of sections, paragraphs, and links using HTML elements (the building blocks of a web page) such as tags and attributes. 
+</p>
+    <p id="css">CSS stands for Cascading Style Sheets language and is used to stylize elements written in a markup language such as HTML. It separates the content from the visual representation of the site. The relation between HTML and CSS is strongly tied together since HTML is the very foundation of a site and CSS is all of the aesthetics of an entire website.</p>
+    <iframe id="frame" src="https://www.youtube.com/embed/u5W2NWItytc" id="frame"></iframe>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
